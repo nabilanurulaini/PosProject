@@ -6,10 +6,10 @@ function MenuItem({ name, price, image }) {
         listStyle: "none",
       }}
     >
-       <img src ={image} width={"500px"} height={"180px"} style={{width:"500px", height:"250px"}}/>
+       <img src ={image} width={"500px"} height={"180px"} style={{width:"500px", height:"200px"}}/>
       <div>
-      <h1 style={{ marginTop: "16px", fontWeight: "bold", fontSize: "18px" }}>{name}</h1>
-        <span>Rp {price.toLocaleString("id")}</span>
+      <h1 style={{ marginTop: "14px", fontWeight: "bold", fontSize: "16px" }}>{name}</h1>
+        <span style={{fontSize:"14px"}}>Rp {price.toLocaleString("id")}</span>
       </div>
     </li>
   );

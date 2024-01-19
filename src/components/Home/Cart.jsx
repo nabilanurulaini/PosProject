@@ -99,7 +99,7 @@ function Cart({ carts, dispatch }) {
     <div className="bg-[#f5f4ed] w-[20%] rounded-lg shadow-md border py-5">
       <h1 className="text-center font-bold text-2xl text-yellow-500">Cart</h1>
 
-      <div className="flex flex-col justify-between h-[700px]">
+      <div className="flex flex-col justify-between h-[800px]">
         <ul className="overflow-y-auto px-5">
           {carts.map((cart) => (
             <div

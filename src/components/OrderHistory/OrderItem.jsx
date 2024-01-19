@@ -19,7 +19,7 @@ function OrderItem({ order }) {
                   {orderItem.quantity}x {orderItem.name} 
                 </p>
                 <p>{orderItem.notes}</p>
-                <p>{orderItem.price.toLocaleString("id")}</p>
+                <p>Rp {orderItem.price.toLocaleString("id")}</p>
               </li>
             ))}
           </ul>
