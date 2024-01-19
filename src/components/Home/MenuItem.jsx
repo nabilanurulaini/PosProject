@@ -6,7 +6,7 @@ function MenuItem({ name, price, image }) {
         listStyle: "none",
       }}
     >
-       <img src ={image} width={"500px"} height={"200px"} style={{width:"500px", height:"250px"}}/>
+       <img src ={image} width={"500px"} height={"180px"} style={{width:"500px", height:"250px"}}/>
       <div>
       <h1 style={{ marginTop: "16px", fontWeight: "bold", fontSize: "18px" }}>{name}</h1>
         <span>Rp {price.toLocaleString("id")}</span>
